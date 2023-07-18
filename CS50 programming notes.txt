@@ -1,0 +1,47 @@
+type in ls. Put a space. Paste the address of the folder.
+ls C:\Users\Administrator\Documents\code
+press enter to execute it.
+
+ls stands for 'list files' - lists all of the files in that folder.
+
+type in cd. Put a space. Paste the address of the folder.
+cd C:\Users\Administrator\Documents\code
+press enter to execute it.
+
+cd stands for 'change directory' - cd brings up the address of the folder file.
+
+How to view the full name of the file:
+Go to 'code' folder.
+Click 'view' at the top of the screen
+Then show > file name extensions.
+C files end with '.c' - NOT .txt, .doc, etc.
+
+Open a '.c' file by right clicking it and choosing 'open with' > VS Code
+
+
+Each statement ends with a semicolon.
+
+Make sure Cygwin is in the same folder as the code (Click 'copy address' of the file you want to use)
+
+To compile the code, use command 'gcc' put a space and then paste name of your 'c' file.
+gcc hello.c
+
+Once you've used the gcc command, you will get a '.exe' program in the same folder as your '.c' file.
+
+To run your '.exe' program, type:
+./'name of exe program'
+./a.exe
+Then press enter to execute
+
+To give a '.exe' programme a different name than 'a.exe':
+Type this into Cygwin:
+gcc hello.c -o hello (example) - 
+"gcc filename.c -o newname"
+Press enter to execute
+
+gcc creates a .exe computer program using your C file
+./ executes the .exe programme could do whatever you programmed it to do in your C file.
+
+Save code from VS Code before putting it into Cygwin - Ctrl S is ok. If you see the white dot on your tab, it is NOT saved.
+
+You MUST have files that you need on your computer (e.g. .h files) or your code will not work and the computer will not be able to execute it.
